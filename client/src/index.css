@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif,'Times New Roman', Times, serif; */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+
+.zsiq-widget {
+    /* position: relative; */
+    margin-right: 50px;
+    bottom: 20px;  /* Adjust the bottom spacing if needed */
+    left: 50px !important;  /* Adjust the left positioning to your preference */
+    z-index: 9999;  /* Ensure it stays on top */
+  }
