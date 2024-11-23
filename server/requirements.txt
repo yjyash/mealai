@@ -1,9 +1,0 @@
-pandas
-numpy
-tensorflow
-cv2
-matplotlib.pyplot
-seaborn
-IPython.display
-sklearn.metrics
-sklearn.model_selection
